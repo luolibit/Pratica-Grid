@@ -96,17 +96,25 @@ div{
 
 #work img{
     display: flex;
-    width: 280px;
+    width: 250px;
     justify-content:flex-start;
     border-radius: 20px;
     margin-bottom: 10px;
 }
 
-#work h1{
-    font-weight: normal;
-    font-size: 20px;
-    padding-right: 200px;
+#work h1 {
+    display: flex;
+    align-items: center; 
+    font-size: 25px;
+ 
 }
+
+.material-symbols-sharp {
+    font-family: 'Material Symbols Sharp';
+    margin-left: 200px; 
+    vertical-align: middle; 
+}
+
 
 hr{
     border-color: rgb(163, 87, 200);;
@@ -115,8 +123,15 @@ hr{
 }
 
 .songs{
-    text-align: left;
+    margin-left: -180px;
     font-size: 15px;
+    line-height: 1px;
+}
+
+.song{
+    font-size: 15px;
+    margin-right: 120px;
+    line-height: 1px;
 }
 
 #about{
@@ -169,6 +184,12 @@ hr{
     grid-column-start: 9;
     grid-column-end: 13;
 }
+
+#socials p{
+    word-spacing: 20px;
+    text-align: center;
+    font-size: 13px;
+}
  
 .seta{
     display: flex;
@@ -178,6 +199,4 @@ hr{
     width: 100%;
 }
 
-.setawork{
-    display: grid;
-}
+
